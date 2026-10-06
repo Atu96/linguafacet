@@ -50,7 +50,13 @@ The app offers support from the small labeled action in the main window, Setting
 
 LinguaFacet is focused on translation quality, tone, and context. Subtitle processing, speech-to-text, OCR, and translation history are intentionally outside the current scope.
 
-No source-code license has been declared in this repository. Availability of source does not by itself grant reuse or redistribution rights.
+## License
+
+Copyright © 2026 Atu. All rights reserved.
+
+LinguaFacet is **source-available** under the [PolyForm Noncommercial License 1.0.0](LICENSE). You may inspect, study, modify, and share the software for permitted noncommercial purposes under that license. Commercial use, commercial redistribution, resale, sublicensing, and commercial derivative products require separate written permission from Atu.
+
+This is a noncommercial source-available license, not an OSI-approved open-source license.
 
 ## Maintenance documents
 

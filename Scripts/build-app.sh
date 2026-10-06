@@ -48,6 +48,7 @@ mkdir -p "$APP_DIR/Contents/MacOS" "$APP_DIR/Contents/Resources"
 cp "$BUILD_DIR/TranslateQuick" "$APP_DIR/Contents/MacOS/TranslateQuick"
 cp "$PROJECT_DIR/Resources/Info.plist" "$APP_DIR/Contents/Info.plist"
 cp "$PROJECT_DIR/Resources/AppIcon.icns" "$APP_DIR/Contents/Resources/AppIcon.icns"
+cp "$PROJECT_DIR/LICENSE" "$APP_DIR/Contents/Resources/LICENSE.txt"
 for localization in "$PROJECT_DIR"/Resources/*.lproj; do
     cp -R "$localization" "$APP_DIR/Contents/Resources/"
 done

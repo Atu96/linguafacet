@@ -9,8 +9,8 @@
     <key>CFBundleName</key><string>LinguaFacet</string>
     <key>CFBundleDisplayName</key><string>LinguaFacet</string>
     <key>CFBundlePackageType</key><string>APPL</string>
-    <key>CFBundleShortVersionString</key><string>1.12.0</string>
-    <key>CFBundleVersion</key><string>43</string>
+    <key>CFBundleShortVersionString</key><string>1.12.1</string>
+    <key>CFBundleVersion</key><string>44</string>
     <key>CFBundleLocalizations</key>
     <array>
         <string>en</string><string>vi</string><string>zh-Hans</string><string>ja</string>
@@ -19,6 +19,6 @@
     <key>CFBundleIconFile</key><string>AppIcon.icns</string>
     <key>LSMinimumSystemVersion</key><string>26.4</string>
     <key>LSUIElement</key><true/>
-    <key>NSHumanReadableCopyright</key><string>Copyright © 2026 GEMST</string>
+    <key>NSHumanReadableCopyright</key><string>Copyright © 2026 Atu. All rights reserved.</string>
 </dict>
 </plist>

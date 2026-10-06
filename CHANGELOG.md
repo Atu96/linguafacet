@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.12.1 — 2026-10-06
+
+- Licensed the source under PolyForm Noncommercial 1.0.0 with Atu as the copyright holder.
+- Added the license and required copyright notice to the app bundle and public project documentation.
+- Clarified that LinguaFacet is source-available for noncommercial purposes, not OSI open source.
+
 ## 1.12.0 — 2026-10-06
 
 - Renamed the product to **LinguaFacet — AI Translator** while preserving the existing bundle identifier for Keychain and Accessibility continuity.
