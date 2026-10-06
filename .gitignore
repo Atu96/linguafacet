@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Swift build products and compiler caches
+.build/
+.module-cache*/
+.test-module-cache*/
+dist/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Local maintenance records (may contain machine-specific paths/identifiers)
+AGENTS.md
+BACKUP-RESTORE.md
+CHECKPOINT.md
+Docs/QA-*.md
+
