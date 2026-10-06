@@ -44,7 +44,7 @@ All three shortcuts can be changed in Settings.
 
 ## Distribution status
 
-[Download LinguaFacet 1.12.2 for Apple silicon](https://github.com/Atu96/linguafacet/releases/tag/v1.12.2). The Release includes the arm64 DMG and a SHA-256 checksum file. Because this repository is private, downloads require repository access.
+[Download LinguaFacet 1.12.2 for Apple silicon](https://github.com/Atu96/linguafacet/releases/tag/v1.12.2). The public Release includes the arm64 DMG and a SHA-256 checksum file.
 
 Open the DMG and drag LinguaFacet into Applications.
 
