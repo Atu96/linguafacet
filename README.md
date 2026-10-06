@@ -1,6 +1,6 @@
 # LinguaFacet — AI Translator
 
-A native macOS translation utility with fast two-column translation, selected-text shortcuts, and writing-style presets.
+A small native macOS translator for quick everyday translation and tone-aware rewriting.
 
 ## What it does
 
@@ -16,6 +16,14 @@ A native macOS translation utility with fast two-column translation, selected-te
 ## Interface languages
 
 New installations default to English. The interface can be changed in Settings to English, Vietnamese, Simplified Chinese, Japanese, Korean, French, German, or Spanish. This preference changes only the app’s labels and menus; translation source/target languages and AI prompt behavior remain independent.
+
+## Quick start
+
+1. Add your own Groq API key in Settings → Services.
+2. Type or paste text into Quick Translation; the result appears automatically after a short pause.
+3. Use AI Tone when you need natural conversation, academic, professional, peer, or custom wording.
+
+Groq is the primary translation service. Apple Local remains available as an offline/failure fallback when the Mac and selected language pair support it.
 
 ## Requirements
 
@@ -34,6 +42,26 @@ The normal input/paste workflow does not need Accessibility permission. Apple Lo
 
 All three shortcuts can be changed in Settings.
 
+## Distribution status
+
+There is no GitHub Release yet. This private repository currently contains source code only; the locally tested DMG has not been published as a release asset.
+
+Current local builds are arm64-only and ad-hoc signed. They are not signed with an Apple Developer ID or notarized by Apple, so macOS may warn when opening a copy on another Mac. Only open builds from a source you trust, and do not disable Gatekeeper across the system.
+
+## Privacy and limitations
+
+- API keys are stored in macOS Keychain and are never committed to this repository.
+- Translation text is sent to the selected cloud provider when Groq or Gemini is used. Apple Local processes supported requests on the device.
+- Accessibility permission is used only for selected-text translation and replacement.
+- LinguaFacet does not keep translation history and does not include OCR, subtitle processing, or speech-to-text.
+- The Ko-fi page opens only after an explicit Support action; translated text and usage data are not added to its URL.
+
+## Support
+
+If LinguaFacet saves you time, you can [support its development on Ko-fi](https://ko-fi.com/atu1202). No pressure — thanks for using it! ❤️
+
+Support is optional and never unlocks features. The app keeps working normally if you do not support it.
+
 ## Build from source
 
 Run:
@@ -42,13 +70,7 @@ Run:
 ./Scripts/build-app.sh
 ```
 
-The app is created at `dist/LinguaFacet.app`. Run `Scripts/build-dmg.sh` to create the drag-to-Applications DMG. Local builds are signed as documented in [Docs/SIGNING.md](Docs/SIGNING.md); public distribution still requires Developer ID signing and Apple notarization.
-
-## Support
-
-If LinguaFacet saves you time, you can [support its continued development on Ko-fi](https://ko-fi.com/atu1202). It helps with fixes and improvements, but it is completely optional. Every advertised feature remains available without supporting. ❤️
-
-The app offers support from the small labeled action in the main window, Settings → About, and as an optional choice in the quit confirmation. Ko-fi opens only after an explicit choice; staying or pressing Escape keeps the app open. The link contains no translated text, usage history, account details, or other private data.
+The app is created at `dist/LinguaFacet.app`. Run `Scripts/build-dmg.sh` to create a local drag-to-Applications DMG. Signing and Keychain-continuity details are documented in [Docs/SIGNING.md](Docs/SIGNING.md).
 
 ## Project status
 
@@ -62,7 +84,7 @@ LinguaFacet is **source-available** under the [PolyForm Noncommercial License 1.
 
 This is a noncommercial source-available license, not an OSI-approved open-source license.
 
-## Maintenance documents
+## Developer documentation
 
 - [Runtime system map](SYSTEM-MAP.md)
 - [Architecture](ARCHITECTURE.md)
