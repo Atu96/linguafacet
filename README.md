@@ -13,6 +13,10 @@ A native macOS translation utility with fast two-column translation, selected-te
 - Stores API keys only in macOS Keychain.
 - Does not include OCR or translation history.
 
+## Interface languages
+
+New installations default to English. The interface can be changed in Settings to English, Vietnamese, Simplified Chinese, Japanese, Korean, French, German, or Spanish. This preference changes only the app’s labels and menus; translation source/target languages and AI prompt behavior remain independent.
+
 ## Requirements
 
 - Apple silicon Mac

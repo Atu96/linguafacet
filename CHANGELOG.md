@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.12.2 — 2026-10-06
+
+- Added an explanation below the interface-language picker so it cannot be confused with translation source/target languages.
+- Documented the English fresh-install default and all eight supported interface languages in the README.
+
 ## 1.12.1 — 2026-10-06
 
 - Licensed the source under PolyForm Noncommercial 1.0.0 with Atu as the copyright holder.

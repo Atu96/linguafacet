@@ -165,6 +165,10 @@ struct SettingsView: View {
                         Text(language.nativeName).tag(language)
                     }
                 }
+                Text("Chỉ thay đổi ngôn ngữ hiển thị của ứng dụng; không ảnh hưởng ngôn ngữ nguồn, ngôn ngữ đích hoặc cách AI dịch. Bản cài mới mặc định dùng English.")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                    .fixedSize(horizontal: false, vertical: true)
                 Picker("Chủ đề", selection: $settings.theme) {
                     ForEach(AppTheme.allCases) { Text($0.title).tag($0) }
                 }

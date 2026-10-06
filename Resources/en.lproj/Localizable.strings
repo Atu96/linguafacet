@@ -11,6 +11,7 @@
 "Giới thiệu" = "About";
 "Giao diện" = "Appearance";
 "Ngôn ngữ giao diện" = "Interface language";
+"Chỉ thay đổi ngôn ngữ hiển thị của ứng dụng; không ảnh hưởng ngôn ngữ nguồn, ngôn ngữ đích hoặc cách AI dịch. Bản cài mới mặc định dùng English." = "Changes only the app’s display language. It does not affect source language, target language, or how AI translates. New installations default to English.";
 "Chủ đề" = "Theme";
 "Công cụ dịch" = "Translation service";
 "Hành vi" = "Behavior";

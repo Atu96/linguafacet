@@ -15,3 +15,4 @@
 "Dán" = "ペースト";
 "Sao chép" = "コピー";
 "Sẵn sàng" = "準備完了";
+"Chỉ thay đổi ngôn ngữ hiển thị của ứng dụng; không ảnh hưởng ngôn ngữ nguồn, ngôn ngữ đích hoặc cách AI dịch. Bản cài mới mặc định dùng English." = "アプリの表示言語のみを変更します。翻訳元・翻訳先の言語やAIの翻訳方法には影響しません。新規インストールでは英語が既定です。";

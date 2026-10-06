@@ -9,8 +9,8 @@
     <key>CFBundleName</key><string>LinguaFacet</string>
     <key>CFBundleDisplayName</key><string>LinguaFacet</string>
     <key>CFBundlePackageType</key><string>APPL</string>
-    <key>CFBundleShortVersionString</key><string>1.12.1</string>
-    <key>CFBundleVersion</key><string>44</string>
+    <key>CFBundleShortVersionString</key><string>1.12.2</string>
+    <key>CFBundleVersion</key><string>45</string>
     <key>CFBundleLocalizations</key>
     <array>
         <string>en</string><string>vi</string><string>zh-Hans</string><string>ja</string>
