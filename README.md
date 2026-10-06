@@ -44,9 +44,11 @@ All three shortcuts can be changed in Settings.
 
 ## Distribution status
 
-There is no GitHub Release yet. This private repository currently contains source code only; the locally tested DMG has not been published as a release asset.
+[Download LinguaFacet 1.12.2 for Apple silicon](https://github.com/Atu96/linguafacet/releases/tag/v1.12.2). The Release includes the arm64 DMG and a SHA-256 checksum file. Because this repository is private, downloads require repository access.
 
-Current local builds are arm64-only and ad-hoc signed. They are not signed with an Apple Developer ID or notarized by Apple, so macOS may warn when opening a copy on another Mac. Only open builds from a source you trust, and do not disable Gatekeeper across the system.
+Open the DMG and drag LinguaFacet into Applications.
+
+The current Release is arm64-only and ad-hoc signed. It is not signed with an Apple Developer ID or notarized by Apple, so macOS may warn when opening it on another Mac. Only open a copy from a source you trust, and do not disable Gatekeeper across the system.
 
 ## Privacy and limitations
 
